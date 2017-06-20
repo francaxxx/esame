@@ -2,7 +2,7 @@ body {
     width: 100%;
     margin: 0;
     overflow-x: hidden;
-    background-image: url("pattern2.png");
+    background-image: url("http://localhost:8888/esame-labadigital/wp-content/uploads/2017/06/pattern2-1.png");
 }
 .clearfix:after,
 .clearfix:before {
@@ -344,9 +344,5 @@ nav[role="custom-dropdown"] ul > li:hover > a {
         margin-top: 0;
     }
 }
-
-
-
-
 
 /*# sourceMappingURL=custom.css.map */

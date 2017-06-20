@@ -30,7 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<!-- ******************* The Navbar Area ******************* -->
 	<div class="row">
  		<div class="col1 clearfix">
- 			 <div class="colonna-1-3"><img class="logotype" src="../img/logo_blue.svg" alt="logotype labadigital"></div>
+ 			 <div class="colonna-1-3"><img class="logotype" src="http://localhost:8888/esame-labadigital/wp-content/uploads/2017/06/cropped-logotype.png" alt="logotype labadigital"></div>
  			 <div class="colonna-1-5">
  					<nav role="custom-dropdown">
  						 <input type="checkbox" id="button">

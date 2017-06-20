@@ -19,9 +19,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<div class="row row5 clearfix">
 			 <footer>
-					<div class="col col-6">
+					<div class="col col6">
 						<img class="img" src="http://localhost:8888/esame-labadigital/wp-content/uploads/2017/06/cropped-logotype.png" alt="logotype labadigital">
-						 <h2>© 2015/16 LABA - Libera Accademia di Belle Arti</h2>
+					<br /> <h2>© 2015/16 LABA - Libera Accademia di Belle Arti</h2>
 						 <div class="social">
 					     <a href="https://www.facebook.com/laba.edu"><img src="http://localhost:8888/esame-labadigital/wp-content/uploads/2017/06/fb.png" alt="" class="icon"></a>
 					     <a href="https://twitter.com/labatwit"><img src="http://localhost:8888/esame-labadigital/wp-content/uploads/2017/06/tw.png" alt="" class="icon"></a>

@@ -20,6 +20,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="apple-mobile-web-app-title" content="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name=”keywords” content=”Digital,Laba,Brescia,università,accademiadibellearti,laurea,diplomadisecondolivello”>
+	<meta name="description" content="Laba Digital organizza il biennio di Web e App a Brescia">
+	<meta name="author" content="francesca barbagallo">
+	<title>LabaDigital - Corsi</title>
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="stile.css" rel="stylesheet" type="text/css">
 	<?php wp_head(); ?>
 </head>
 

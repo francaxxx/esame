@@ -380,7 +380,7 @@ nav[role="custom-dropdown"] ul > li:hover > a {
 
 
 		.row,
-		.col,
+		.cols,
 		.box {
 			height: auto;
 			clear: both;

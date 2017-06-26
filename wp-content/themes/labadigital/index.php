@@ -32,6 +32,18 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 			<main class="site-main" id="main">
 
+				<section class="container">
+				  <h1 class="title">
+						 <span>Molinari!</span>
+						<span>Happy to </span>
+				    <span>see you!</span>
+				  </h1>
+				</section>
+
+
+
+				</div>
+
 				<?php if ( have_posts() ) : ?>
 
 					<?php /* Start the Loop */ ?>
@@ -39,6 +51,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 					<?php while ( have_posts() ) : the_post(); ?>
 
 						<?php
+
 
 						/*
 						 * Include the Post-Format-specific template for the content.
@@ -52,28 +65,16 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 				<?php else : ?>
 
-					<?php get_template_part( 'loop-templates/content', 'none' ); ?>
 
 				<?php endif; ?>
 
 			</main><!-- #main -->
 
-			<!-- The pagination component -->
-			<?php understrap_pagination(); ?>
 
-		</div><!-- #primary -->
 
-		<!-- Do the right sidebar check -->
-		<?php if ( 'right' === $sidebar_pos || 'both' === $sidebar_pos ) : ?>
-
-			<?php get_sidebar( 'right' ); ?>
-
-		<?php endif; ?>
 
 	</div><!-- .row -->
 
 </div><!-- Container end -->
 
 </div><!-- Wrapper end -->
-
-<?php get_footer(); ?>

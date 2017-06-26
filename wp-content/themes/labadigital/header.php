@@ -25,35 +25,36 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name=”keywords” content=”Digital,Laba,Brescia,università,accademiadibellearti,laurea,diplomadisecondolivello”>
 	<meta name="description" content="Laba Digital organizza il biennio di Web e App a Brescia">
 	<meta name="author" content="francesca barbagallo">
-	<title>LabaDigital - Corsi</title>
 	<link href="http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-	<link href="stile.css" rel="stylesheet" type="text/css">
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >
 
 <div class="hfeed site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<div class="row">
  		<div class="col1 clearfix">
- 			 <div class="colonna-1-3"><img class="logotype" src="http://localhost:8888/esame-labadigital/wp-content/uploads/2017/06/cropped-logotype.png" alt="logotype labadigital"></div>
- 			 <div class="colonna-1-5">
+ 			 <div class="colonna-1-3">
+				 <a href="http://localhost:8888/esame-labadigital/home/">
+					 <img class="logotype" src="http://localhost:8888/esame-labadigital/wp-content/uploads/2017/06/cropped-logotype.png" alt="logotype labadigital">
+				 </a>
+			 </div>
+			  <div class="colonna-1-5">
  					<nav role="custom-dropdown">
  						 <input type="checkbox" id="button">
  						 <label for="button" onclick></label>
  						 <ul>
- 								<li><a href="#">Home</a></li>
- 								<li><a href="#" class="attivo">Corsi</a></li>
- 								<li><a href="#">Web Design</a></li>
- 								<li><a href="#">App Design</a></li>
- 								<li><a href="#">Contatti</a></li>
- 								<li><a href="#">Laba</a></li>
+ 								<li><a href="home">Home</a></li>
+ 								<li><a href="corso">Corsi</a></li>
+ 								<li><a href="web">Web Design</a></li>
+ 								<li><a href="app">App Design</a></li>
+ 								<li><a href="contact">Contatti</a></li>
+ 								<li><a href="laba">Laba</a></li>
  						 </ul>
  					</nav>
  			 </div>
- 			 <!--chiudo nav 1-7-->
  		</div>
  		<!--/* chiudo row */-->
 					<!-- Your site title as branding in the menu -->

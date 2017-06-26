@@ -5,7 +5,7 @@ body {
     width: 100%;
     margin: 0;
     overflow-x: hidden;
-    background-image: url("pattern2.png");
+    background-image: url("pattern.png");
 }
 
 .clearfix:after,
@@ -122,40 +122,49 @@ img.foto {
     margin-top: -8%;
   }
 
-.box-1 {
-    border-color: #CAFF42;
-}
-.box-1 h3 {
-    color: #CAFF42;
-}
-.box-2 {
-    border-color: #D0E0EB;
-}
-.box-2 h3 {
-    color: #D0E0EB;
-}
+
 .box-3,
 .box-5 {
     margin-left: 50%;
 }
+.box-1 {
+	border-color:#83ABCC;
+}
+
+.box-1 h3 {
+	color:#83ABCC;
+}
+
+.box-2 {
+	border-color:#CAFF42;
+}
+
+.box-2 h3 {
+	color:#CAFF42;
+}
+
 .box-3 {
-    border-color: #49708A;
+	border-color:#D0E0EB;
 }
+
 .box-3 h3 {
-    color: #49708A;
+	color:#D0E0EB;
 }
+
 .box-4 {
-    border-color: #A5C7C9;
-    margin-top: -10%;
+	border-color:#49708A;
 }
+
 .box-4 h3 {
-    color: #A5C7C9;
+	color:#49708A;
 }
+
 .box-5 {
-    border-color: #83ABCC;
+	border-color:#A5C7C9;
 }
+
 .box-5 h3 {
-    color: #83ABCC;
+	color:#A5C7C9;
 }
 .col3-a {
     width: 60%;
@@ -258,6 +267,12 @@ ul {
 			margin: 0;
 			margin-top: 7px;
 		}
+
+    .icon {
+      width: 30px;
+      height: 30px;
+    }
+    
 @-webkit-keyframes bugfix {
     from {
         padding: 0;

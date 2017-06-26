@@ -4,12 +4,14 @@ body {
     overflow-x: hidden;
     background-image: url("http://localhost:8888/esame-labadigital/wp-content/uploads/2017/06/pattern2-1.png");
 }
+
 .clearfix:after,
 .clearfix:before {
     content: " ";
     display: table;
     clear: both;
 }
+
 p {
     font-family: LucidaGrande;
     font-size: 1em;
@@ -69,9 +71,27 @@ nav a {
 nav li:hover {
     font-weight: 800;
 }
+
+.colonna-1-5 {
+    width: 50%;
+    float: left;
+    margin-left: 15%;
+}
+
+.colonna-1-3 {
+    width: 30%;
+    float: left;
+}
+.colonna-1-7 {
+    width: 70%;
+    float: left;
+}
+
+
 .attivo {
     background-color: #CAFF42;
 }
+
 .row,
 .row2,
 .row4,
@@ -88,7 +108,8 @@ nav li:hover {
 }
 
 .col3,
-.col2 {
+.col2,
+.col7 {
     float: left;
     margin-right: 1%;
 }
@@ -101,6 +122,12 @@ nav li:hover {
 .col2-a {
     width: 49.5%;
 }
+
+.col7 {
+  width: 70%;
+  margin-left: 30%;
+}
+
 .col3,
 .col3-a {
     width: 32.66667%;
@@ -119,14 +146,16 @@ img.foto {
 .box-2,
 .box-3,
 .box-4,
-.box-5 {
+.box-5,
+.box-7 {
     border: 28px solid;
     opacity: .8;
 }
 .box-2,
 .box-3,
 .box-4,
-.box-5 {
+.box-5
+.box-7 {
     margin-top: -8%;
 }
 .box-1 {
@@ -142,13 +171,18 @@ img.foto {
     color: #D0E0EB;
 }
 .box-3,
-.box-5 {
+.box-5
+{
     margin-left: 50%;
 }
-.box-3 {
+.box-3,
+.box-7
+{
     border-color: #49708A;
 }
-.box-3 h3 {
+.box-3 h3,
+.box-7 h3
+{
     color: #49708A;
 }
 .box-4 {
@@ -168,28 +202,23 @@ img.foto {
     width: 60%;
 }
 .row5 {
-    float: left;
     width: 100%;
-    margin: 5px 0;
     margin-bottom: 0;
     background-color: #CAFF42;
 }
-.colonna-1-3 {
-    width: 30%;
-    float: left;
+
+.entry-title h1 {
+  display: none !important;
 }
-.colonna-1-7 {
-    width: 70%;
-    float: left;
+
+iframe {
+  width: 100%;
+  height:500px;
 }
 /* Advanced Checkbox Hack */
 
 hr {
     border: 1px solid #CAFF42;
-}
-
-.container-fluid, .wrapper {
-  padding: 0;
 }
 
 footer  {
@@ -198,13 +227,10 @@ footer  {
 
 footer h2 {
     color: #81AACE;
-    padding: 12px;
     margin: 0;
     line-height: 2;
     font-size: 2vh;
-    line-height: 5vh;
-    margin-left: 10%;
-    }
+
 }
 
 .row {
@@ -215,16 +241,50 @@ footer h2 {
     margin: 0;
     width: auto;
 }
-.box h3,
-.box p {
-    padding: 10%;
-    margin: 0;
-}
+
 .row:after,
 .row:before {
     content: " ";
     display: table;
     clear: both;
+}
+
+.row5 {
+    padding: 30px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+
+.col6 {
+  float: left;
+}
+
+
+.social ul {
+        padding: 0;
+        margin-top: -13px;
+
+}
+
+.social li {
+        margin-right: 20px;
+        float: left;
+        list-style: none;
+}
+
+.social li img {
+  width: 30px;
+  height: 30px;
+
+}
+
+
+
+.box h3,
+.box p {
+    padding: 10%;
+    margin: 0;
 }
 
 .img {
@@ -233,32 +293,19 @@ footer h2 {
     padding: 0;
     margin: 0;
     float: left;
-    margin-left: 15px;
 }
 img.foto {
     margin-top: 0;
 }
-.row5 {
-    padding: 30px;
+
+
+
+.col-md-8.col-xs-12 {
     margin: 0;
-    margin-top: 30px;
-}
-.row5 .col6 {
-    float: left;
-    margin-left: 40%;
-    clear: none;
-}
-.row5 .col6 h2 {
-
-    margin: 0;
-
 }
 
 
 
-.social {
-        padding-left: 12px;
-}
 @-webkit-keyframes bugfix {
     from {
         padding: 0;
@@ -383,8 +430,6 @@ nav[role="custom-dropdown"] ul > li:hover > a {
         margin-left: 10%;
     }
 
-
-
 		.row,
 		.cols,
 		.box {
@@ -436,8 +481,12 @@ nav[role="custom-dropdown"] ul > li:hover > a {
 
 		.row5{
 			padding: 30px;
-			margin: 0;
+      margin-bottom: 0;
 		}
+
+    .box-7 {
+      margin:0;
+    }
 
 		.row5 .col-6 {
 			float: left;

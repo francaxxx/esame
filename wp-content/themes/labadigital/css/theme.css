@@ -256,13 +256,17 @@ template {
 html {
   box-sizing: border-box; }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
-
 @-ms-viewport {
   width: device-width; }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+   }
+
 
 html {
   -ms-overflow-style: scrollbar;
